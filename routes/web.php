@@ -1,13 +1,19 @@
 <?php
 
-Route::redirect('/', '/login');
-Route::get('/home', function () {
-    if (session('status')) {
-        return redirect()->route('admin.home')->with('status', session('status'));
-    }
+//front
+//Route::namespace('Front')->group( function () {
+    Route::get('/', 'HomeController@__invoke')->name('home');
+    Route::get('/about', 'AboutController@__invoke')->name('about');
+    Route::get('/services', 'ServicesController@__invoke')->name('services');
+    Route::get('/testimonials', 'TestimonialController@index')->name('testimonials');
+    Route::get('/blog', 'BlogController@index')->name('blog');
+    Route::get('/contactus', 'ContactusController@index')->name('contact');
+//});
 
-    return redirect()->route('admin.home');
-});
+
+
+//admin
+Route::redirect('/admin', '/login');
 
 Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');
 Auth::routes();
