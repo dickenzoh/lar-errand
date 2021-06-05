@@ -17,8 +17,10 @@
 </head>
 
 <body class="header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden login-page">
+    @include('front.partials.header')
     @yield('content')
     @yield('scripts')
+    @include('front.partials.footer')
 </body>
 
 </html>
