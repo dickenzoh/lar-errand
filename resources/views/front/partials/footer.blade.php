@@ -118,41 +118,68 @@
   
     <hr>
   
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-dribbble mx-1">
-          <i class="fab fa-dribbble"> </i>
-        </a>
-      </li>
-    </ul>
-    <!-- Social buttons -->
+    <footer id="bottom-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 col-xs-12">
+              <div class="card-block text-center">
+                  
+                  <p class="card-text"><small>&copy; Copyright 2016. Designed by dickenzoh Kenya</small></p>
+              </div>
+              
+          </div>
+          <div class="col-sm-8 col-xs-12">
+            <div class="container-fluid">
+              <div class="card-block text-center">
+                <ul class="list-unstyled list-inline float-md-left">
+                              <li class="list-inline-item">
+                                <a target="_blank" href="https://www.facebook.com/dickenzohkenya/?fref=ts">
+                                  <i class="fa fa-facebook"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com/dickenzoh_Kenya">
+                                  <i class="fa fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                              <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+                              <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                          </ul>
   
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
+                
+                          <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="my-navbar">
+                            
+                            <div class="collapse navbar-collapse" id="navbarText">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0s">
+                                      <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.3s">
+                                      <a class="nav-link" href="{{ route('services') }}">Services</a>
+                                    </li>
+                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.6s">
+                                      <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+                                    </li>
+                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.9s">
+                                      <a class="nav-link" href="{{ route('testimonials') }}">Testimonials</a>
+                                    </li>
+                                    <li class="nav-item active wow slideInLeft" data-wow-delay="1.2s">
+                                      <a class="nav-link" href="{{ route('about') }}">About Us</a>
+                                </li>
+                                  <li class="nav-item active wow slideInLeft" data-wow-delay="1.5s">
+                                      <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                          </nav>
+              </div>
+            </div>
+              
+          </div>
+        </div><!--row-->		
+      </div><!--container fluid-->
+    
   
   </footer>
   <!-- Footer -->
