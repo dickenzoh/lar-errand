@@ -2,7 +2,7 @@ body {
 	position: relative;
 }
 p {
-	color:#333;
+	color:#fff;
 }
 #home h4, #features h4, #products h4, #projects h4, #templates h4, #contact h4 {
 	color:rgb(194, 59, 70);
@@ -48,6 +48,70 @@ p {
 }
 #my-navbar a.navbar-brand {
 	width:auto;
+}
+.banner{
+	background-image:url('images/banner.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+	background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+
+}
+.banner-text h1{
+	font-size: 70px;
+	margin-top: 80px;
+}
+.banner-text p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #222;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background: #222;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border: none;
+}
+
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
 }
 #carousel-inner .text-muted {
 	color: rgb(9, 202, 186) !important;

@@ -1,4 +1,3 @@
-    <div class="container-fluid">
         <!-----------Top Bar----------->
         <div class="top-bar">
             <div class="container-fluid">
@@ -6,9 +5,9 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="mobile-phone hidden-xs-down">
                             <ul class="list-unstyled list-inline float-md-left">
-                            <p><i class="fa fa-envelope float-md-center"></i>  <a href="mailto:info@dickenzohkenya.com">info@dickenzohkenya.com</a></p>
-                            <p><i class="fas fa-phone"></i>  <a href="mailto:info@dickenzohkenya.com">+254705040646</a></p>
-                            </ul>
+                            <p><i class="fa fa-envelope"></i>  <a href="mailto:info@dickenzohkenya.com">info@dickenzohkenya.com</a>
+                                <i class="fas fa-phone mx-auto"></i>  <a href="mailto:info@dickenzohkenya.com">+254705040646</a>
+                            </p>
                         </div>
                     </div>
 
@@ -28,5 +27,5 @@
             </div>
         </div><!--top bar-->
     
-    </div>
+
 
