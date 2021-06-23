@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
+<footer id="bottom-footer" class="page-footer font-small stylish-color-dark pt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -102,24 +102,10 @@
   
     </div>
     <!-- Footer Links -->
-  
+    
     <hr>
   
-    <!-- Call to action -->
-    <ul class="list-unstyled list-inline text-center py-2">
-      <li class="list-inline-item">
-        <h5 class="mb-1">Register for free</h5>
-      </li>
-      <li class="list-inline-item">
-        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
-      </li>
-    </ul>
-    <!-- Call to action -->
-  
-    <hr>
-  
-    <footer id="bottom-footer">
-      <div class="container-fluid">
+        <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4 col-xs-12">
               <div class="card-block text-center">
@@ -132,54 +118,45 @@
             <div class="container-fluid">
               <div class="card-block text-center">
                 <ul class="list-unstyled list-inline float-md-left">
-                              <li class="list-inline-item">
-                                <a target="_blank" href="https://www.facebook.com/dickenzohkenya/?fref=ts">
-                                  <i class="fa fa-facebook"></i>
-                                </a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a target="_blank" href="https://twitter.com/dickenzoh_Kenya">
-                                  <i class="fa fa-twitter"></i>
-                                </a>
-                              </li>
-                              <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                              <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
-                              <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                          </ul>
-  
-                
-                          <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="my-navbar">
-                            
-                            <div class="collapse navbar-collapse" id="navbarText">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0s">
-                                      <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.3s">
-                                      <a class="nav-link" href="{{ route('services') }}">Services</a>
-                                    </li>
-                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.6s">
-                                      <a class="nav-link" href="{{ route('blog') }}">Blog</a>
-                                    </li>
-                                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.9s">
-                                      <a class="nav-link" href="{{ route('testimonials') }}">Testimonials</a>
-                                    </li>
-                                    <li class="nav-item active wow slideInLeft" data-wow-delay="1.2s">
-                                      <a class="nav-link" href="{{ route('about') }}">About Us</a>
-                                </li>
-                                  <li class="nav-item active wow slideInLeft" data-wow-delay="1.5s">
-                                      <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                          </nav>
+                  <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/dickenzohkenya/?fref=ts">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a target="_blank" href="https://twitter.com/dickenzoh_Kenya">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>                              
+              </div>
+              <div class="collapse navbar-collapse" id="navbarText">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active wow slideInLeft" data-wow-delay="0s">
+                      <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.3s">
+                      <a class="nav-link" href="{{ route('services') }}">Services</a>
+                    </li>
+                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.6s">
+                      <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+                    </li>
+                    <li class="nav-item active wow slideInLeft" data-wow-delay="0.9s">
+                      <a class="nav-link" href="{{ route('testimonials') }}">Testimonials</a>
+                    </li>
+                    <li class="nav-item active wow slideInLeft" data-wow-delay="1.2s">
+                      <a class="nav-link" href="{{ route('about') }}">About Us</a>
+                    </li>
+                    <li class="nav-item active wow slideInLeft" data-wow-delay="1.5s">
+                      <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
+                    </li>
+                </ul>
               </div>
             </div>
-              
           </div>
-        </div><!--row-->		
-      </div><!--container fluid-->
-    
-  
-  </footer>
+    </footer>
   <!-- Footer -->

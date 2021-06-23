@@ -14,27 +14,69 @@
         </div>
     </section>
     <!-- =======End Banner Section ======= -->
-<div class="content">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="card">
-                <div class="card-header">
-                    Blog
-                </div>
-
-                <div class="card-body">
-                    @if(session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- ======= Services Section ======= -->
+<section>
+    <!-- Main Page Heading -->
+<div class="col-12 text-center mt-5">
+  <h1 class="text-dark pt-4">Our Services</h1>
+  <div class="border-top border-primary w-50 mx-auto my-3"></div>
+  <p class="lead">The following include our services</p>
 </div>
+
+
+<!-- Three Column Section -->
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-4 my-4">
+      <img src="images/1.jpg" alt="" class="w-100">
+      <h4 class="my-4">Amazing. Incredible.</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        imus impedit!</p>
+      <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
+    </div>
+    <div class="col-md-4 my-4">
+      <img src="images/2.jpg" alt="" class="w-100">
+      <h4 class="my-4">Amazing. Incredible.</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        imus impedit!</p>
+      <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
+    </div>
+    <div class="col-md-4 my-4">
+      <img src="images/3.jpg" alt="" class="w-100">
+      <h4 class="my-4">Amazing. Incredible.</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        imus impedit!</p>
+      <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
+    </div>
+  </div>
+  <div class="row my-5">
+    <div class="col-md-4 my-4">
+      <img src="images/3.jpg" alt="" class="w-100">
+      <h4 class="my-4">Amazing. Incredible.</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        imus impedit!</p>
+      <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
+    </div>
+    <div class="col-md-4 my-4">
+      <img src="images/1.jpg" alt="" class="w-100">
+      <h4 class="my-4">Amazing. Incredible.</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        imus impedit!</p>
+      <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
+    </div>
+    <div class="col-md-4 my-4">
+      <img src="images/2.jpg" alt="" class="w-100">
+      <h4 class="my-4">Amazing. Incredible.</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        imus impedit!</p>
+      <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
+    </div>
+  </div>
+</div>
+
+<!-- End Three Column Section -->
+</section>
+<!-- =======End Services Section ======= -->
 @endsection
 @section('scripts')
 @parent

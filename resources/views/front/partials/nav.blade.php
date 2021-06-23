@@ -1,12 +1,15 @@
 <section>
+  
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="my-navbar">
+
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="logo">
-      <a class="navbar-brand mr-auto" href="{{ route('home') }}"><img src="images/logo.png"></a>
-    </div>
+    
+    <a class="navbar-brand mr-auto" href="{{ route('home') }}"><img src="images/logo.png"></a>
+
     <div class="collapse navbar-collapse" id="navbarText">
+
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active wow slideInLeft" data-wow-delay="0s">
               <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
@@ -22,8 +25,8 @@
             </li>
             <li class="nav-item active wow slideInLeft" data-wow-delay="1.2s">
               <a class="nav-link" href="{{ route('about') }}">About Us</a>
-        </li>
-          <li class="nav-item active wow slideInLeft" data-wow-delay="1.5s">
+            </li>
+            <li class="nav-item active wow slideInLeft" data-wow-delay="1.5s">
               <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
             </li>
         </ul>

@@ -1,18 +1,12 @@
+/*-- Body Reset --*/
 body {
-	position: relative;
-}
-p {
-	color:#fff;
-}
-#home h4, #features h4, #products h4, #projects h4, #templates h4, #contact h4 {
-	color:rgb(194, 59, 70);
-}
-.raised {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	color: #616971;
+  } 
 .top-bar {
 	background-color:#555;
+	height: 2.5rem;
 }
 .top-bar p {
 	margin-left:20px;
@@ -35,6 +29,32 @@ p {
 .mobile-phone i {
 	color:rgb(9, 202, 186);
 }
+/*
+#my-navbar {
+	background-color:#555;
+	border-top:solid 1px #222;
+}
+#my-navbar .navbar-toggler {
+	border-color:rgb(194, 154, 59);
+}
+#my-navbar a {
+	color:#fff;
+	margin-right: 0.5em;
+}
+#my-navbar a.navbar-brand {
+	width:auto;
+}
+#carousel-inner .text-muted {
+	color: rgb(194, 154, 59) !important;
+}
+#my-navbar a:hover {
+	color:rgb(194, 154, 59);
+}
+#my-navbar h5 {
+	color:rgb(194, 154, 59);
+	display: inline-block;
+	position:relative;
+}*/
 #my-navbar {
 	background-color:#555;
 	border-top:solid 1px #222;
@@ -60,7 +80,7 @@ p {
 .banner-text{
 	width: 100%;
 	position: absolute;
-	top: 30%;
+	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
@@ -84,10 +104,11 @@ button{
 	font-weight: bold;
 	border: 2px solid #222;
 	background: transparent;
-	color: #fff;
+	color: rgb(9, 202, 186);
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+	text-decoration-color: #009688;
 }
 span{
 	background: #222;
@@ -107,23 +128,7 @@ button:hover{
 	border: none;
 }
 
-.logo{
-    width: 140px;
-    position: absolute;
-    top: 4%;
-    left: 10%;
-}
-#carousel-inner .text-muted {
-	color: rgb(9, 202, 186) !important;
-}
-#my-navbar a:hover {
-	color:rgb(9, 202, 186);
-}
-#my-navbar h5 {
-	color:rgb(9, 202, 186);
-	display: inline-block;
-	position:relative;
-}
+
 #main-carousel .carousel-caption {
 	display:inline-block;
 	vertical-align: middle;
@@ -320,4 +325,205 @@ button:hover{
 .blue-gradient {
     background: rgba(0, 0, 0, 0) linear-gradient(90deg, #c29a3b 0px, #062a64 100%) repeat scroll 0 0;
 }
+  /*============= CAROUSEL =============*/
+  
+  #carousel{
+	box-shadow: 0 1rem rgba(0,0,0,.1);
+  }
+  .carousel-inner{
+	max-height: 38rem !important;
+  }
+  
+  /*---Change Carousel Transition Speed --*/
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item-active{
+	transition: transform 1.2s ease;
+  }
+  
+  /*-- Carousel Content --*/
+  .carousel-caption{
+	position: absolute;
+	top: 54%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+  }
+  .bg-custom{
+	background-color: rgba(0, 0, 0, .4);
+	color: white;
+	border-radius: 1rem;
+  }
+  .carousel-caption h1{
+	font-size: 3.8rem;
+	text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 0, 1);
+  }
+  .border-primary{
+	border-top: .2rem solid #4981b3 !important;
+  }
+  .carousel-caption h3{
+	font-size: 2.2rem;
+	text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+  }
+  .btn-lg{
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1rem;
+	border-radius: medium;
+  }
+  .btn-danger{
+	background-color: #ac2615;
+	border: .05rem solid #ac2615;
+  }
+  .btn-primary{
+	background-color: #4981b3;
+	border: .05rem solid #4981b3;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus{
+	background-color: #4981b3 !important;
+	border: .05rem solid #4981b3 !important;
+  }
+  /*===== FIXED BACKGROUND IMG =====*/
+  .fixed{
+	background-image: url('../img/matrix.jpg');
+	position:fixed;
+  }
+  .fixed-background{
+	padding: 5rem 0;
+  }
+  
+  .fixed-background {
+	overflow: hidden; /*-- Correction for iOS--*/ 
+  }
+  
+  /*-- Emoji Navbar --*/
+  .emoji{
+	background-image: linear-gradient(to right, #4981b3, #ac2615);
+	min-height: 0 !important;
+	padding: .4rem 0 !important;
+  }
+  .emoji .svg-inline--fa{
+	margin: 0 auto;
+	color: white;
+	font-size: 2rem;
+  }
+  
+  
+  /*============= FOOTER =============*/
+  footer{
+	background-color: #383838;
+	padding: 1rem 2rem 3rem;
+  }
+  footer img{
+	height: 3.5rem;
+	margin:1.5rem auto;
+  }
+  footer p, footer a,
+  .socket a {
+	color: white;
+	text-decoration: none;
+  }
+  ul.social{
+	list-style-type: none;
+	display: flex;
+	max-width: 16rem;
+	margin: 0 auto;
+	padding: 0;
+  }
+  ul.social li{
+	margin: 0 auto;
+  }
+  footer .svg-inline--fa{
+	font-size: 2.3rem;
+  }
+  footer .svg-inline--fa:hover{
+	color: #68a0d2;
+  }
+  
+  
+  /*============= SOCKET =============*/
+  .socket{
+	background-color: #222222;
+	border-top: 1rem solid #498lb3;
+  }
+  
+  
+  /*============= MEDIA QUERIES =============*/
+  
+  /* Devices under 1199px (xl) */
+  @media (max-width: 1199.98px) {
+	.carousel-caption h1{
+	  font-size: 2.8rem;
+	}
+	.carousel-caption h3{
+	  font-size: 1.8rem;
+	}
+  }
+  /* Devices under 992px (lg) */
+  @media (max-width: 991.98px) {
+	.carousel-caption h1{
+	  font-size: 2.5rem;
+	}
+	.carousel-caption h3{
+	  font-size: 1.5rem;
+	}
+	.btn-lg {
+	  font-size: .95rem;
+	}
+  }
+  
+  
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/
+  
+  /*-- Bootstrap Mobile Gutter Fix --*/
+  .row, .container-fluid {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+  }
+  
+  /*-- Fixed Background Image --*/
+  .fixed-background {
+	position: relative;
+	width: 100%;
+	z-index: 1000!important;
+  }
+  .fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -999 !important;
+  }
+  .fixed {
+	z-index: -999!important;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+  }
 
