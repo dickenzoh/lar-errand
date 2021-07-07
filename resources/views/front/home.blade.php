@@ -12,12 +12,12 @@
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-8 bg-custom d-none d-md-block py-3 px-8">
-								<h1>Bootstrap 4</h1>
+								<h1> Mafua</h1>
 								<div class="border-top border-primary w-50 mx-auto my-3">
-									<h3 class="pb-3">Complete Website Design</h3>
+									<h3 class="pb-3">Errands & Delivery</h3>
 									<div class="in-line">
-                    <a href="#" class="btn btn-danger btn-lg mr-2">Click here</a>
-									  <a href="#" class="btn btn-primary btn-lg ml-2">Click here</a>
+                    <a href="#" class="btn btn-danger btn-lg mr-2">Order Now</a>
+									  <a href="#" class="btn btn-primary btn-lg ml-2">Learn More</a>
                   </div>
 								</div>
 							</div>
@@ -33,7 +33,7 @@
 							<div class="col-5 bg-custom d-none d-lg-block py-3 px-8 pr-3">
 								<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architect
 									 in ipsum est ullam laudantium omnis.</p>
-									<a href="#" class="btn btn-primary btn-lg ml-2">Click here</a>
+									<a href="#" class="btn btn-primary btn-lg ml-2">Order Now</a>
 								</div>
 							</div>
 						</div>
@@ -62,7 +62,7 @@
 		<!-- End Carousel Content -->
 
 
-		<!-- Previous & Next Buttons -->
+		<!-- Previous & Next Buttons
 		<a href="#corousel" class="carousel-control-prev" role="button"	data-slide="prev">
 			<span class="fas fa-chevron-left fa-2x"></span>
 		</a>
@@ -70,7 +70,7 @@
 			<span class="fas fa-chevron-right fa-2x"></span>
 		</a>
 
-		<!-- End Previous & Next Buttons -->
+		 End Previous & Next Buttons -->
 
 	</div>
 	<!-- End Image Carousel -->
@@ -90,7 +90,7 @@
       <div class="row my-5">
         <div class="col-md-4 my-4">
           <img src="images/services/card-errand-delivery.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
+          <h4 class="my-4">Delivery Services</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             imus impedit!</p>
             <a href= "{{ route('services') }}" alt='Broken Link'>
@@ -99,7 +99,7 @@
         </div>
         <div class="col-md-4 my-4">
           <img src="images/services/card-errands-house-cleaning.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
+          <h4 class="my-4">Cleaning Sevices</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             imus impedit!</p>
             <a href= "{{ route('services') }}" alt='Broken Link'>
@@ -108,7 +108,7 @@
         </div>
         <div class="col-md-4 my-4">
           <img src="images/services/card-errands-full-laundry.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
+          <h4 class="my-4">Full Laundary</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             imus impedit!</p>
             <a href= "{{ route('services') }}" alt='Broken Link'>
@@ -119,7 +119,7 @@
       <div class="row my-5">
         <div class="col-md-4 my-4">
           <img src="images/services/card-errand-gift-delivery.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
+          <h4 class="my-4">Gift Delivery.</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             imus impedit!</p>
             <a href= "{{ route('services') }}" alt='Broken Link'>
@@ -128,7 +128,7 @@
         </div>
         <div class="col-md-4 my-4">
           <img src="images/services/card-errands-iron-services.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
+          <h4 class="my-4">Ironing Services.</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             imus impedit!</p>
             <a href= "{{ route('services') }}" alt='Broken Link'>
@@ -137,7 +137,7 @@
         </div>
         <div class="col-md-4 my-4">
           <img src="images/services/card-errands-grocery-shopping.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
+          <h4 class="my-4">Grocery Shopping</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             imus impedit!</p>
             <a href= "{{ route('services') }}" alt='Broken Link'>

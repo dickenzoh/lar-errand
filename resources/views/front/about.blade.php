@@ -1,140 +1,116 @@
 @extends('layouts.app')
 @section('content')
 
-	<!-- Image Carousel -->
-	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-
-		<!-- Carousel Content -->
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="images/carousel/1.jpg" alt="" class="w-100">
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-8 bg-custom d-none d-md-block py-3 px-8">
-								<h1>Bootstrap 4</h1>
-								<div class="border-top border-primary w-50 mx-auto my-3">
-									<h3 class="pb-3">Complete Website Design</h3>
-									<a href="#" class="btn btn-danger btn-lg mr-2">Click here</a>
-									<a href="#" class="btn btn-primary btn-lg ml-2">Click here</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="images/carousel/2.jpg" alt="" class="w-100">
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="row justify-content-end text-right">
-							<div class="col-5 bg-custom d-none d-lg-block py-3 px-8 pr-3">
-								<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architect
-									 in ipsum est ullam laudantium omnis.</p>
-									<a href="#" class="btn btn-primary btn-lg ml-2">Click here</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="images/carousel/3.jpg" alt="" class="w-100">
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="row justify-content-start text-left">
-							<div class="col-7 bg-custom d-none d-lg-block py-3 px-8">
-								<h3 class="pb-3">Built for Tablets</h3>
-								<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architect
-									 in ipsum est ullam laudantium omnis.</p>
-									<a href="#" class="btn btn-primary btn-lg ml-2">Click here</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<!-- ======= Banner Section ======= -->
+<section>
+	<div class="banner">
+	<div class="banner-text">
+		<h1>Mafua Errand Services</h1>
+		<p>You make an order we deliver</p>
+		<div>
+			<a href= "{{ route('services') }}" alt='Broken Link'><button type="button"><span></span>Book Now</button></a>
+			<a href= "{{ route('services') }}" alt='Broken Link'><button type="button"><span></span>Register</button></a>
 		</div>
-		
-		<!-- End Carousel Content -->
-
-
-		<!-- Previous & Next Buttons -->
-		<a href="#corousel" class="carousel-control-prev" role="button"	data-slide="prev">
-			<span class="fas fa-chevron-left fa-2x"></span>
-		</a>
-		<a href="#corousel" class="carousel-control-next" role="button"	data-slide="next">
-			<span class="fas fa-chevron-right fa-2x"></span>
-		</a>
-
-		<!-- End Previous & Next Buttons -->
-
 	</div>
-	<!-- End Image Carousel -->
+	</div>
+  </section>
+  <!-- =======End Banner Section ======= -->
 
-  <!-- ======= Services Section ======= -->
+  <!-- ======= About Us Section ======= -->
   <section>
         <!-- Main Page Heading -->
     <div class="col-12 text-center mt-5">
-      <h1 class="text-dark pt-4">Our Services</h1>
+      <h1 class="text-dark pt-4">About Us</h1>
       <div class="border-top border-primary w-50 mx-auto my-3"></div>
-      <p class="lead">The following include our services</p>
+      <p class="lead">The following include our About Us</p>
     </div>
 
 
-    <!-- Three Column Section -->
-    <div class="container">
-      <div class="row my-5">
-        <div class="col-md-4 my-4">
-          <img src="images/1.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            imus impedit!</p>
-          <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
-        </div>
-        <div class="col-md-4 my-4">
-          <img src="images/2.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            imus impedit!</p>
-          <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
-        </div>
-        <div class="col-md-4 my-4">
-          <img src="images/3.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            imus impedit!</p>
-          <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
-        </div>
-      </div>
-      <div class="row my-5">
-        <div class="col-md-4 my-4">
-          <img src="images/3.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            imus impedit!</p>
-          <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
-        </div>
-        <div class="col-md-4 my-4">
-          <img src="images/1.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            imus impedit!</p>
-          <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
-        </div>
-        <div class="col-md-4 my-4">
-          <img src="images/2.jpg" alt="" class="w-100">
-          <h4 class="my-4">Amazing. Incredible.</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            imus impedit!</p>
-          <a href="#" class="btn btn_outline-dark btn-md">Our Story</a>	
-        </div>
-      </div>
-    </div>
+    <!-- Start Two Column Section -->
+	<div class="cotainer my-5">
+		<div class="row py-4">
+			<div class="col-lg-6 mb-4 my-lg-auto">
+				<h1 class="text-dark font-weight-bold mb-3">
+					We have been expecting you.
+				</h1>
+				<p class="mb-4">Lorem ipsum, dolor sit amet consectetur 
+					que molestiae magnam voluptate sapiente, 
+					ius consectetur aspernatur in ducimus.</p>
+				<a href="https://makeitlife.tk" target="blank" class="btn btn-outline-dark btn-lg">
+				Check our themes</a>	
+			</div>
+			<div class="col-lg-6"><img src="images/carousel/carousel-errands-delivery.jpg" alt="" class="w-100"></div>
+		</div>
+		<div class="row py-4">
+			<div class="col-lg-6"><img src="images/carousel/carousel-errands-cleaning.jpg" alt="" class="w-100"></div>
+			<div class="col-lg-6 mb-4 my-lg-auto">
+				<h1 class="text-dark font-weight-bold mb-3">
+					We have been expecting you.
+				</h1>
+				<p class="mb-4">Lorem ipsum, dolor sit amet consectetur 
+					que molestiae magnam voluptate sapiente, 
+					ius consectetur aspernatur in ducimus.</p>
+				<a href="https://makeitlife.tk" target="blank" class="btn btn-outline-dark btn-lg">
+				Check our themes</a>	
+			</div>
+		</div>
+		<div class="row py-4">
+			<div class="col-lg-6 mb-4 my-lg-auto">
+				<h1 class="text-dark font-weight-bold mb-3">
+					We have been expecting you.
+				</h1>
+				<p class="mb-4">Lorem ipsum, dolor sit amet consectetur 
+					que molestiae magnam voluptate sapiente, 
+					ius consectetur aspernatur in ducimus.</p>
+				<a href="https://makeitlife.tk" target="blank" class="btn btn-outline-dark btn-lg">
+				Check our themes</a>	
+			</div>
+			<div class="col-lg-6"><img src="images/carousel/carousel-errand-laundry.jpg" alt="" class="w-100"></div>
+		</div>
+	</div>
 
-	<!-- End Three Column Section -->
+	<!-- End Two Column Section -->
+	 <!-- Main Page Heading -->
+	 
+	 
+	
+		<div class="container">
+		  
+		  <div class="team">
+			<div class="member">
+			  <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="member_image">
+			  <h3>Paul Doe</h3>
+			  <span>doe@gmail.com</span>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p>
+			  <div class="btn">
+				<a href="#">follow</a>
+			  </div>
+			</div>
+			<div class="member">
+			  <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="member_image">
+			  <h3>John Doe</h3>
+			  <span>doe@gmail.com</span>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p>
+			  <div class="btn">
+				<a href="#">follow</a>
+			  </div>
+			</div>
+			<div class="member">
+			  <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="member_image">
+			  <h3>Alex Doe</h3>
+			  <span>doe@gmail.com</span>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p>
+			  <div class="btn">
+				<a href="#">follow</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		
+	  
   </section>
-  <!-- =======End Services Section ======= -->
+  <!-- =======End About Us Section ======= -->
 @endsection
 @section('scripts')
 

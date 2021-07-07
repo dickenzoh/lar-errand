@@ -4,7 +4,7 @@
     <section>
         <div class="banner">
         <div class="banner-text">
-            <h1>Mars Errand Services</h1>
+            <h1>Mafua Errand Services</h1>
             <p>You make an order we deliver</p>
             <div>
                 <a href= "{{ route('services') }}" alt='Broken Link'><button type="button"><span></span>Book Now</button></a>
@@ -14,13 +14,13 @@
         </div>
     </section>
     <!-- =======End Banner Section ======= -->
-<!-- ======= Services Section ======= -->
+<!-- ======= Blog Section ======= -->
 <section>
     <!-- Main Page Heading -->
 <div class="col-12 text-center mt-5">
-  <h1 class="text-dark pt-4">Our Services</h1>
+  <h1 class="text-dark pt-4">Our Blog</h1>
   <div class="border-top border-primary w-50 mx-auto my-3"></div>
-  <p class="lead">The following include our services</p>
+  <p class="lead">The following include our Blog</p>
 </div>
 
 
@@ -76,7 +76,7 @@
 
 <!-- End Three Column Section -->
 </section>
-<!-- =======End Services Section ======= -->
+<!-- =======End Blog Section ======= -->
 @endsection
 @section('scripts')
 @parent
